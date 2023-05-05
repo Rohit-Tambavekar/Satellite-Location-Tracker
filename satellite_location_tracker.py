@@ -21,7 +21,7 @@ import requests
 
 
 # Define the MongoDB connection string
-mongo_conn_str = "mongodb://guvidsm23:databaseentry@ac-yaydskh-shard-00-00.dbdtjgb.mongodb.net:27017,ac-yaydskh-shard-00-01.dbdtjgb.mongodb.net:27017,ac-yaydskh-shard-00-02.dbdtjgb.mongodb.net:27017/?ssl=true&replicaSet=atlas-xjikdp-shard-0&authSource=admin&retryWrites=true&w=majority"
+mongo_conn_str = "mongodb://<database_name>:<password_for_database>@ac-yaydskh-shard-00-00.dbdtjgb.mongodb.net:27017,ac-yaydskh-shard-00-01.dbdtjgb.mongodb.net:27017,ac-yaydskh-shard-00-02.dbdtjgb.mongodb.net:27017/?ssl=true&replicaSet=atlas-xjikdp-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 # Define the URL for the API request
 url = 'http://api.open-notify.org/iss-now.json'
