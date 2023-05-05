@@ -54,8 +54,4 @@ for i in range(10800):
         data = response.json()
         db_Var.insert_one(data)
         time.sleep(1)
-
-
-
-
-
+        
