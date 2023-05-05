@@ -21,6 +21,8 @@ import requests
 
 
 # Define the MongoDB connection string
+#Enter the database name in <database_name> and password for the database in <password for database>
+#do not include the <> just database:password format
 mongo_conn_str = "mongodb://<database_name>:<password_for_database>@ac-yaydskh-shard-00-00.dbdtjgb.mongodb.net:27017,ac-yaydskh-shard-00-01.dbdtjgb.mongodb.net:27017,ac-yaydskh-shard-00-02.dbdtjgb.mongodb.net:27017/?ssl=true&replicaSet=atlas-xjikdp-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 # Define the URL for the API request
