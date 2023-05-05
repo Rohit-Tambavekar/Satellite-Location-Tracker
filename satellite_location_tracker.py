@@ -1,13 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 pip install pymongo
-
-
-# In[2]:
 
 
 import pymongo
@@ -17,9 +8,6 @@ import pandas as pd
 import requests
 
 
-# In[3]:
-
-
 # Define the MongoDB connection string
 #Enter the database name in <database_name> and password for the database in <password for database>
 #do not include the <> just database:password format
@@ -27,10 +15,6 @@ mongo_conn_str = "mongodb://<database_name>:<password_for_database>@ac-yaydskh-s
 
 # Define the URL for the API request
 url = 'http://api.open-notify.org/iss-now.json'
-
-
-
-# In[5]:
 
 
 # Connect to MongoDB and create a connection object
@@ -71,8 +55,6 @@ for i in range(10800):
         db_Var.insert_one(data)
         time.sleep(1)
 
-
-# In[ ]:
 
 
 
